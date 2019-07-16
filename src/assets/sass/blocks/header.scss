@@ -1,0 +1,28 @@
+header {
+    margin-top: 2rem;
+
+    @media (max-width: $breakpoint_sm) {
+        margin-top: 1rem;
+    }
+}
+
+.header__inner {
+    padding: .8rem 1.4rem;
+    background-color: $white;
+    border-radius: $radius;
+    box-shadow: $shadow;
+
+    @media (max-width: $breakpoint_sm) {
+        padding: 0;
+    }
+}
+
+.header__row {
+    align-items: center;
+}
+
+.language {
+    @media (max-width: $breakpoint_sm) {
+        top: -60px;
+    }
+}
